@@ -1,0 +1,19 @@
+{
+  "plugins": ["stylelint-scss", "stylelint-order"],
+  "extends": "stylelint-config-standard-scss",
+  "rules": {
+    "at-rule-no-unknown": null,
+    "scss/at-rule-no-unknown": true,
+    "scss/dollar-variable-pattern": "^foo",
+    "scss/selector-no-redundant-nesting-selector": true,
+    "scss/no-duplicate-dollar-variables": true,
+    "no-descending-specificity": true,
+    "block-no-empty": true,
+    "media-query-no-invalid": true,
+    "at-rule-empty-line-before": "always",
+    "rule-empty-line-before": "always",
+    "indentation": "tab",
+    "selector-class-pattern": null,
+    "order/properties-alphabetical-order": true
+  }
+}
